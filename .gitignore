@@ -1,0 +1,24 @@
+# --- Security ---
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- Tools & IDE ---
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+/data/
