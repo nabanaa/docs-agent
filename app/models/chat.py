@@ -63,3 +63,11 @@ class ChatResponse(BaseModel):
     model_config = ConfigDict(
         from_attributes=True  # Pozwala na mapowanie z obiektów ORM/innych klas
     )
+
+class UploadResponse(BaseModel):
+    filename : str
+    content_type : str
+    char_count : int
+    status: str = "success"
+    message: Optional[str] = None
+

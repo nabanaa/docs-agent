@@ -7,10 +7,10 @@ class Settings(BaseSettings):
     """
     Imports setttings from .env file
     """
-    openai_api_key: str = Field(
-        ...,
-        alias= "OPENAI_API_KEY"
-        )
+    # openai_api_key: str = Field(
+    #     ...,
+    #     alias= "OPENAI_API_KEY"
+    #     )
     google_api_key:str = Field(
         ...,
         alias= "GOOGLE_API_KEY"
